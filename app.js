@@ -14,7 +14,8 @@ const app = new Koa();
 
 app.use(json());
 app.use(logger());
-app.use(jwt({secret: JWT_KEY}).unless({ path: /^\/api\/users/}));
+//app.use(jwt({secret: JWT_KEY}).unless({ path: /^\/api\/users/}));
+app.use(require('koa-static')('./public'));
 app.use(bodyparser({ enableTypes: ['json', 'form', 'text'] }));
 app.use(getUser);
 

@@ -1,0 +1,49 @@
+body, html {
+  width:  100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  width:  100%;
+  height: 10%;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#mask {
+  background-color: green;
+  width: 100%;
+  height: 90%;
+  z-index: 100;
+}
+
+#login {
+  width:  300px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+#login label {
+  display: inline-block;
+  width: 100px;
+  line-height: 35px;
+}
+
+#todo-list {
+  padding: 10px;
+}
+
+#todo-list i {
+  color: gray;
+}
+
+#todo-list i:hover {
+  color: black;
+  cursor: pointer;
+}
