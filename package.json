@@ -1,25 +1,24 @@
 {
-  "name": "todo-list",
+  "name": "todo-list-api",
   "version": "1.0.0",
-  "description": "todo list",
-  "main": "index.js",
+  "description": "todo list api",
   "scripts": {
     "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangding/todo-list.git"
+    "url": "git+https://github.com/wangding/todo-list-api.git"
   },
   "keywords": [
-    "todo-list",
+    "todo-list-api",
     "tasks"
   ],
   "author": "wangding",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wangding/todo-list/issues"
+    "url": "https://github.com/wangding/todo-list-api/issues"
   },
-  "homepage": "https://github.com/wangding/todo-list#readme",
+  "homepage": "https://github.com/wangding/todo-list-api#readme",
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.0",
